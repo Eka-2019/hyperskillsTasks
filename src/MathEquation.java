@@ -37,7 +37,7 @@ public class MathEquation {
      * -3.87177 0.962679
      * @param args
      */
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             // put your code here
             double x1 = 0;
             double x2 = 0;
