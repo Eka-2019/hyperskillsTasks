@@ -26,7 +26,8 @@ public class ScannerReversOutput {
         for(int i = arr.length-1; i>=0; i--){
             int c1 = arr[i];
 
-            System.out.println(c1);
+            //System.out.println(c1);
+            System.out.print(c1+" ");
         }
 
     }
