@@ -8,15 +8,15 @@ public class LocalDateExercises {
 
 
     // Print The first and the last day of a month
-    public static void main9(String[] args) {
-/**
- * Write a program that reads a year and a month and outputs the first and the last day of the month.
- * Sample Input 1:
- * 2017
- * 1
- * Sample Output 1:
- * 2017-01-01 2017-01-31
- */
+    public static void main(String[] args) {
+    /**
+     * Write a program that reads a year and a month and outputs the first and the last day of the month.
+     * Sample Input 1:
+     * 2017
+     * 1
+     * Sample Output 1:
+     * 2017-01-01 2017-01-31
+     */
 
         // put your code here
         Scanner scanner = new Scanner(System.in);
@@ -41,14 +41,14 @@ public class LocalDateExercises {
 
     // The last day of a month
     public static void main8(String[] args) {
-/**
- * Write a program that reads a year and the number of a day in this year, and checks the day is the last day of a month.
- * The program must output "true" or "false".
- * Sample Input 1:
- * 2017 31
- * Sample Output 1:
- * true
- */
+    /**
+     * Write a program that reads a year and the number of a day in this year, and checks the day is the last day of a month.
+     * The program must output "true" or "false".
+     * Sample Input 1:
+     * 2017 31
+     * Sample Output 1:
+     * true
+     */
 
         // put your code here
         Scanner scanner = new Scanner(System.in);
@@ -79,14 +79,14 @@ public class LocalDateExercises {
 
     // The first day of a month
     public static void main7(String[] args) {
-/**
- * Write a program that reads a year and the number of a day in this year, and checks the day is the first day of a month.
- * The program must output "true" or "false".
- * Sample Input 1:
- * 2017 31
- * Sample Output 1:
- * false
- */
+    /**
+     * Write a program that reads a year and the number of a day in this year, and checks the day is the first day of a month.
+     * The program must output "true" or "false".
+     * Sample Input 1:
+     * 2017 31
+     * Sample Output 1:
+     * false
+     */
 
         // put your code here
         Scanner scanner = new Scanner(System.in);
@@ -241,7 +241,7 @@ public class LocalDateExercises {
     }
 
     //Print dates of a year with an offset
-    public static void main(String[] args){
+    public static void main1(String[] args){
         /**
          * Write a program that reads a starting date and an offset in days, and then prints all dates of this year with a specified offset from the starting date.
          * The program should print dates in the ascending order.
