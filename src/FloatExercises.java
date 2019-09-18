@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class FloatExercises {
 
 
+
     public static void main(String[] args) {
+
         //   Liquid pressure
         /**
          * Problem
