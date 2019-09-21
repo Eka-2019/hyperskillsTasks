@@ -32,6 +32,5 @@ public class StandardLoggerExercices {
         }
             System.out.println(result);
 
-
     }
 }

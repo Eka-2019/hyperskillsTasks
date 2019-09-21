@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ConditionalStatementExercises {
 
-
     public static void main(String[] args) {
         //   Chocolate
         /**
