@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ForLoopExercises {
 
 
-    public static void main01(String[] args) {
+    public static void main(String[] args) {
         //   The roots of an equation
         /**
          * The roots of a cubic equation
@@ -34,7 +34,26 @@ public class ForLoopExercises {
          * 1
          */
 
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int d = scan.nextInt();
 
+        for(int i=0; i<1000; i++){
+            if(a*Math.pow(i,3)+b*Math.pow(i,2)+c*i +d==0){
+                System.out.println(i);
+            }
+
+        }
+
+        // reference solution
+        for(int i=0; i<1000; i++){
+            if(a*Math.pow(i,3)+b*Math.pow(i,2)+c*i +d==0){
+                System.out.println(i);
+            }
+
+        }
 
     }
 
