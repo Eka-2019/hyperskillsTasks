@@ -3,9 +3,16 @@ import java.util.Scanner;
 
 public class FloatExercises {
 
-
-
     public static void main(String[] args) {
+        liquidPressure();
+        evaluationAnExpression1();
+        celsiusToFahrenheit();
+        differenceBetweenTwoDoubles();
+        areaOfACircle();
+        findX();
+    }
+
+    public static void liquidPressure() {
 
         //   Liquid pressure
         /**
@@ -45,8 +52,7 @@ public class FloatExercises {
 
     }
 
-
-    public static void main5(String[] args) {
+    public static void evaluationAnExpression1() {
         //   Evaluate an expressions- 1
         /**
          * Write a program which reads a double value x and evaluates the result of
@@ -93,7 +99,7 @@ public class FloatExercises {
 
     }
 
-    public static void main4(String[] args) {
+    public static void celsiusToFahrenheit() {
         //     Celsius to Fahrenheit
 
         /**
@@ -119,8 +125,7 @@ public class FloatExercises {
 
     }
 
-
-    public static void main3(String[] args) {
+    public static void differenceBetweenTwoDoubles() {
         //   Difference between two doubles
         /**
          * Write a program that read two double values and prints the difference between the second and the first one.
@@ -139,7 +144,7 @@ public class FloatExercises {
 
     }
 
-    public static void main2(String[] args) {
+    public static void areaOfACircle() {
         //    Area of a circle
         /**
          * Given the radius ﻿of the circle, you need to find an area of that circle. Use this formula:
@@ -161,7 +166,7 @@ public class FloatExercises {
         System.out.println(Math.PI * Math.pow(radius, 2));
     }
 
-    public static void main1(String[] args) {
+    public static void findX() {
         //   Find X
         /**
          * Write a program that reads three double values a, b, c, and then solving the simplest equation:

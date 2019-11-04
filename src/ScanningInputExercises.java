@@ -3,9 +3,13 @@ import java.util.Scanner;
 
 public class ScanningInputExercises {
 
-
     public static void main(String[] args) {
+        reversingInputNumbers();
+        printEachWordInANewLine();
+        printStrings();
+    }
 
+    public static void reversingInputNumbers() {
         //    Reversing input numbers
         /**
          * Write a program that reads two integer numbers from the standard input and outputs them in the reverse order separated by one space.
@@ -32,7 +36,7 @@ public class ScanningInputExercises {
         }
     }
 
-    public static void main1(String[] args) {
+    public static void printEachWordInANewLine() {
         //   Printing each word in a new line
         /**
          * Write a program that reads five words from the standard input and outputs each word in a new line.
@@ -71,7 +75,7 @@ public class ScanningInputExercises {
 
     }
 
-    public static void main0(String[] args) {
+    public static void printStrings() {
         //   Print strings
         /**
          * Write a program that reads two lines and two numbers (in one line) and outputs them in the same order, each in a new line.

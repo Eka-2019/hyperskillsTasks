@@ -2,9 +2,14 @@ import java.util.Scanner;
 
 public class SwitchExercises {
 
+    public static void main(String[] args) {
+        fromStringToNumber();
+        floorSpaceOfTheRoom();
+        aSimpleCaclulator();
+        shape();
+    }
 
-
-    public static void main4(String[] args) {
+    public static void fromStringToNumber() {
         //    From string to a number
         /**
          * Write a program that read a string from the standard input and outputs the number.
@@ -52,7 +57,7 @@ public class SwitchExercises {
         }
     }
 
-    public static void main3(String[] args) {
+    public static void floorSpaceOfTheRoom() {
         //    Floor-space of the room
         /**
          * Residents of the country of Malevia often experiment with the plan of their rooms.
@@ -134,7 +139,7 @@ public class SwitchExercises {
         }
     }
 
-    public static void main2(String[] args) {
+    public static void aSimpleCaclulator() {
         //    A simple calculator
         /**
          * A simple calculator
@@ -204,7 +209,7 @@ public class SwitchExercises {
         }
     }
 
-    public static void main1(String[] args) {
+    public static void shape() {
         //   Shape
         /**
          * Write a program, which reads the number of the shape (1 – square, 2 – circle, 3 – triangle, 4 – rhombus) and prints the text "You have chosen a square" (or circle, or triangle, or rhombus, depending on the number). If it is a number that doesn't correspond to any of the listed shapes, the program should output: "There is no such shape!".

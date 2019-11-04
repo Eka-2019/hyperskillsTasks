@@ -4,6 +4,17 @@ import java.util.Scanner;
 public class WhileLoopExercises {
 
     public static void main(String[] args) {
+        squaresOfNaturalNumbers();
+        theSmallestValue();
+        profit();
+        collatzConjecture();
+        largestElementOfASequence();
+        sumOfElements();
+        sequence();
+        lenghtOfTheSequence();
+    }
+
+    public static void squaresOfNaturalNumbers() {
         //   Squares of natural numbers
         /**
          * Given integer N. Print all the squares of natural numbers, not exceeding N, in ascending order.
@@ -38,7 +49,7 @@ public class WhileLoopExercises {
 
     }
 
-    public static void main7(String[] args) {
+    public static void theSmallestValue() {
         //   The smallest value
         /**
          * A user inputs a long number M.
@@ -64,7 +75,7 @@ public class WhileLoopExercises {
 
     }
 
-    public static void main6(String[] args) {
+    public static void profit() {
         //    Profit
         /**
          * Ann put M money in the bank. The bank increases Ann's deposit by P percent every year.
@@ -97,12 +108,12 @@ public class WhileLoopExercises {
         System.out.print(count);
     }
 
-
-    public static void main5(String[] args) {
+    public static void collatzConjecture() {
         //   Collatz conjecture
         /**
          * Given natural number n. Generate a sequence of integers, described in the Collatz conjecture:
-         * If n is an even number, divide it in half, if it is odd, multiply it by 3 and add 1. Repeat this operation until we get the number 1 as a result.
+         * If n is an even number, divide it in half, if it is odd, multiply it by 3 and add 1. Repeat this operation until
+         * we get the number 1 as a result.
          * For example, if the number n = 17, then the sequence looks as the following:
          * 17 52 26 13 40 20 10 5 16 8 4 2 1
          * Such a sequence will stop at number 1 for any primary natural number n.
@@ -136,8 +147,7 @@ public class WhileLoopExercises {
 
     }
 
-
-    public static void main4(String[] args) {
+    public static void largestElementOfASequence() {
         //    The largest element of a sequence
         /**
          * Given the sequence of integer numbers (which ends with the number 0). Find the largest element of the sequence.
@@ -168,8 +178,7 @@ public class WhileLoopExercises {
         System.out.println(max);
     }
 
-
-    public static void main3(String[] args) {
+    public static void sumOfElements() {
         //    The sum of elements
         /**
          * Find the sum of all elements of a sequence, ending with the number 0.
@@ -197,7 +206,7 @@ public class WhileLoopExercises {
         System.out.println(sum);
     }
 
-    public static void main2(String[] args) {
+    public static void sequence() {
         //   The sequence
         /**
          * Given a sequence of natural numbers, not exceeding 30000. Find the maximum element divisible by 4. As input, the program gets the number of elements in the sequence, and then the elements themselves. In the sequence, there is always an element divisible by 4. The number of elements does not exceed 1000. The program should print a single number: the maximum element of the sequence divisible by 4.
@@ -234,8 +243,7 @@ public class WhileLoopExercises {
         System.out.println(max);
     }
 
-
-    public static void main1(String[] args) {
+    public static void lenghtOfTheSequence() {
         //    The length of the sequence
         /**
          * For its input, the program gets a sequence of non-negative integers; each integer is written in a separate line. The sequence ends with an integer 0; when the program reads 0, it should end its work and output the length of the sequence (not counting the final 0).

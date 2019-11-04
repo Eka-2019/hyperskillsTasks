@@ -5,10 +5,21 @@ import java.util.Scanner;
 
 public class LocalDateExercises {
 
-
-
-    // Print The first and the last day of a month
     public static void main(String[] args) {
+        printTheFirstAndTheLastDaysOfAMonth();
+        theLastDayOfAMonth();
+        theFirstDayOfAMonth();
+        gettingInfoOfADay();
+        dateBeforeAndAfter30Years();
+        dateBefore10Days();
+        dateAfterTwoWeeks();
+        allMondaysInAMonth();
+        printDatesOfAYearWithAnOffset();
+        nthDateFromTheEndOfMonth();
+    }
+
+    public static void printTheFirstAndTheLastDaysOfAMonth() {
+        // Print The first and the last day of a month
     /**
      * Write a program that reads a year and a month and outputs the first and the last day of the month.
      * Sample Input 1:
@@ -35,12 +46,8 @@ public class LocalDateExercises {
 
     }
 
-
-
-
-
-    // The last day of a month
-    public static void main8(String[] args) {
+    public static void theLastDayOfAMonth() {
+        // The last day of a month
     /**
      * Write a program that reads a year and the number of a day in this year, and checks the day is the last day of a month.
      * The program must output "true" or "false".
@@ -76,9 +83,8 @@ public class LocalDateExercises {
 
     }
 
-
-    // The first day of a month
-    public static void main7(String[] args) {
+    public static void theFirstDayOfAMonth() {
+        // The first day of a month
     /**
      * Write a program that reads a year and the number of a day in this year, and checks the day is the first day of a month.
      * The program must output "true" or "false".
@@ -109,8 +115,8 @@ public class LocalDateExercises {
 
     }
 
-    // Getting information of a day
-    public static void main6(String[] args) {
+    public static void gettingInfoOfADay() {
+        // Getting information of a day
 
         /**
          * Write a program that reads a date from the standard input and output the number of the day in the year and the number of the day in the month.
@@ -136,9 +142,8 @@ public class LocalDateExercises {
 
     }
 
-
-    // A date before and after 30 years
-    public static void main5(String[] args) {
+    public static void dateBeforeAndAfter30Years() {
+        // A date before and after 30 years
         /**
          * Write a program that reads a date from the standard input and prints two dates - before and after 30 years compares to the given date.
          * Sample Input 1:
@@ -166,9 +171,8 @@ public class LocalDateExercises {
 
     }
 
-
-    // A date before 10 days
-    public static void main4(String[] args) {
+    public static void dateBefore10Days() {
+        // A date before 10 days
         /**
          * Write a program that reads a date from the standard input and prints a date before 10 days.
          * Sample Input 1:
@@ -191,8 +195,8 @@ public class LocalDateExercises {
 
     }
 
-    // LocalDateADateAfterTwoWeek
-    public static void main3(String[] args) {
+    public static void dateAfterTwoWeeks() {
+        // LocalDateADateAfterTwoWeeks
         /**
          * Write a program that reads a date from the standard input and prints a date after 2 weeks.
          * Sample Input 1:
@@ -216,8 +220,8 @@ public class LocalDateExercises {
 
     }
 
-    // LocalDateAllMondaysInMonth
-    public static void main2(String[] args) {
+    public static void allMondaysInAMonth() {
+        // LocalDateAllMondaysInMonth
         /**
          * Write a program that reads a year and the number of a month (1-12)
          * and prints dates of all Mondays in this month from the first to the last date.
@@ -240,8 +244,8 @@ public class LocalDateExercises {
         }
     }
 
-    //Print dates of a year with an offset
-    public static void main1(String[] args){
+    public static void printDatesOfAYearWithAnOffset(){
+        //Print dates of a year with an offset
         /**
          * Write a program that reads a starting date and an offset in days, and then prints all dates of this year with a specified offset from the starting date.
          * The program should print dates in the ascending order.
@@ -280,8 +284,8 @@ public class LocalDateExercises {
 
     }
 
-    // LocalDateNthDateFromTheEndOfMonth
-    public static void main0(String[] args) {
+    public static void nthDateFromTheEndOfMonth() {
+        // LocalDateNthDateFromTheEndOfMonth
         /**
          * Write a program that prints the n-th day from the end of a month.
          * The program must read a year, a month and the offset from the end of the month.

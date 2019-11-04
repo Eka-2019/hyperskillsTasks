@@ -2,8 +2,22 @@ import java.util.Scanner;
 
 public class ForLoopExercises {
 
-
     public static void main(String[] args) {
+        theRootOfAnEquation();
+        luckyNumber();
+        arithmeticAverage();
+        theProductOfNumberFromAToB();
+        sumOfNumberDivisibleBy6();
+        theCountOfNumbersDivisibleByN();
+        theSumOfIntegersFromAToB();
+        grades();
+        maximunElementDivisibleBy4();
+        sizeOfParts();
+        fizzBuzz();
+
+    }
+
+    public static void theRootOfAnEquation() {
         //   The roots of an equation
         /**
          * The roots of a cubic equation
@@ -57,7 +71,7 @@ public class ForLoopExercises {
 
     }
 
-    public static void main9(String[] args) {
+    public static void luckyNumber() {
         //    Lucky number
         /**
          * Given the number N with an even number of digits. If the sum of the first half of the digits equals the sum of
@@ -91,9 +105,7 @@ public class ForLoopExercises {
         }
     }
 
-
-
-    public static void main8(String[] args) {
+    public static void arithmeticAverage() {
         //   Arithmetic average
         /**
          * Write a program that reads two numbers a and b from the keyboard and calculates and outputs to the console the arithmetic average
@@ -128,7 +140,7 @@ public class ForLoopExercises {
         System.out.println(average);
     }
 
-    public static void main7(String[] args) {
+    public static void theProductOfNumberFromAToB() {
         //  The product of numbers from a to b
         /**
          * Write a program that prints the product of all integer numbers from a to b (a < b).
@@ -156,7 +168,7 @@ public class ForLoopExercises {
 
     }
 
-    public static void main6(String[] args) {
+    public static void sumOfNumberDivisibleBy6() {
         //   Sum of numbers divisible by 6
         /**
          * Given the sequence of natural numbers. Find the sum of numbers divisible by 6.
@@ -193,7 +205,7 @@ public class ForLoopExercises {
 
     }
 
-    public static void main5(String[] args) {
+    public static void theCountOfNumbersDivisibleByN() {
         //   The count of numbers divisible by N
         /**
          * Write a program that reads a, b, n and outputs the count of numbers divisible by n in the range from a to b (a < b) inclusively.
@@ -223,7 +235,7 @@ public class ForLoopExercises {
         System.out.println(count);
     }
 
-    public static void main4(String[] args) {
+    public static void theSumOfIntegersFromAToB() {
         //    The sum of integers from a to b
         /**
          *Print the sum of all integers from a to b including both.
@@ -249,7 +261,7 @@ public class ForLoopExercises {
 
     }
 
-    public static void main3(String[] args) {
+    public static void grades() {
         //    Grades
         /**
          * Find the number of "Ds", "Cs", "Bs" and "As" for the last test on informatics in a class consisting of n students.
@@ -301,7 +313,7 @@ public class ForLoopExercises {
         System.out.println(ds + " " + cs + " " + bs + " " + as);
     }
 
-    public static void main2(String[] args) {
+    public static void maximunElementDivisibleBy4() {
         //   Maximum element divisible by 4
         /**
          * Given a sequence of natural numbers, not exceeding 30000. Find the maximum element divisible by 4.
@@ -341,8 +353,7 @@ public class ForLoopExercises {
         System.out.println(max);
     }
 
-
-    public static void main1(String[] args) {
+    public static void sizeOfParts() {
         //    Size of parts
         /**
          * A detector compares the size of parts produced by a machine with the reference standard.
@@ -392,8 +403,7 @@ public class ForLoopExercises {
         System.out.println(norm + " " + larger + " " + smaller);
     }
 
-
-    public static void main0(String[] args) {
+    public static void fizzBuzz() {
         //    Fizz Buzz
         /**
          * Fizz Buzz is a classic programming problem. Here is its slightly modified version.

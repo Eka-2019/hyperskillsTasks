@@ -6,13 +6,26 @@ import java.util.Scanner;
 public class ComparingDateTime {
 
     public static void main(String[] args) {
+        containingDateTimePairsInARange();
+        theIntersectionOfTimeRange();
+        toBeInTimeIn30Min();
+        theLatestDateTimePair();
+        isTheDateBetweenTwoOtherDates();
+        theNewYearIsComming();
+    }
+
+
+    public static void containingDateTimePairsInARange() {
         //   Counting date-time pairs in a range
         /**
          * Write a program that reads date-time pairs and counts how many date-time pairs belongs to the specified range (including the earlier date-time and excluding the later). If the borders of the range are equal and a date-time equal to them, doesn't count this date-time.
          *
          * Input data format
          *
-         * The first line contains a border of the range (the earlier or later, it's unknown). The second line contains another border of the range. The third line contains an integer number N - a number of date-time pairs. The following N lines consist of date-time pairs. Each pair has the format year-month-dayThour:second.
+         * The first line contains a border of the range (the earlier or later, it's unknown).
+         * The second line contains another border of the range.
+         * The third line contains an integer number N - a number of date-time pairs.
+         * The following N lines consist of date-time pairs. Each pair has the format year-month-dayThour:second.
          *
          * Output data format
          *
@@ -62,7 +75,7 @@ public class ComparingDateTime {
 
     }
 
-    public static void main4(String[] args) {
+    public static void theIntersectionOfTimeRange() {
 
         //  The intersection of time ranges
         /**
@@ -111,8 +124,7 @@ public class ComparingDateTime {
 
     }
 
-
-    public static void main3(String[] args) {
+    public static void toBeInTimeIn30Min() {
         // To be in time in 30 minutes
 
         /**
@@ -160,7 +172,7 @@ public class ComparingDateTime {
 
     }
 
-    public static void main2(String[] args){
+    public static void theLatestDateTimePair(){
         //   The latest date-time pair
         /**
          * Write a program that finds the latest date-time pair in the chronological ascending order.
@@ -204,8 +216,7 @@ public class ComparingDateTime {
         System.out.println(max);
     }
 
-
-    public static void main1(String[] args) {
+    public static void isTheDateBetweenTwoOtherDates() {
         //  Is the date between two other dates?
         /**
          * Write a program that reads three dates from the standard input and checks that the first date is between the second and the third but doesn't equal to them.
@@ -246,7 +257,7 @@ public class ComparingDateTime {
         }
     }
 
-    public static void main0(String[] args) {
+    public static void theNewYearIsComming() {
         //  The New Year is coming
 
         /**

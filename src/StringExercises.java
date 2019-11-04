@@ -4,6 +4,15 @@ import java.util.Scanner;
 public class StringExercises {
 
     public static void main(String[] args) {
+        comparingStringsIgnoringWhitespace();
+        replacingAWithB();
+        checkBurgsInCityName();
+        checkPrefixIgnoringTheCase();
+        extractingASubstring();
+    }
+
+
+    public static void comparingStringsIgnoringWhitespace() {
         //   Comparing strings ignoring whitespaces
         /**
          * Write a program that reads two strings and compares them without whitespaces. The program should prints true if both strings are equal, otherwise - false.
@@ -33,7 +42,8 @@ public class StringExercises {
         }
 
     }
-    public static void main3(String[] args) {
+
+    public static void replacingAWithB() {
         //    Replacing 'a' with 'b'
         /**
          * Write a program that reads a string and replaces all occurrences of the letter 'a' with the letter 'b'.
@@ -56,7 +66,7 @@ public class StringExercises {
         System.out.println(str);
     }
 
-    public static void main2(String[] args) {
+    public static void checkBurgsInCityName() {
         //    Check burgs
         /**
          * Write a program that reads the name of a city and check the name ends with "burg".
@@ -87,7 +97,7 @@ public class StringExercises {
         }
     }
 
-    public static void main1(String[] args) {
+    public static void checkPrefixIgnoringTheCase() {
         //   Check prefix ignoring the case
         /**
          * Write a program that checks a given string starts with the prefix "J" ignoring the case.
@@ -114,7 +124,7 @@ public class StringExercises {
         }
     }
 
-    public static void main0(String[] args) {
+    public static void extractingASubstring() {
         //   Extracting a substring
         /**
          * Write a program that reads a string and two integer numbers. These two numbers are representing a range that includes them both.

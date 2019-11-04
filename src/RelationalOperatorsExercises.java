@@ -5,9 +5,21 @@ import java.util.Scanner;
 public class RelationalOperatorsExercises {
 
     public static void main(String[] args) {
+        groundhogsParty();
+        isBetween();
+        checkTheSum();
+        checkTheGivenNumberAreDifferent();
+        exactlyOneParameterIsPositive();
+        boysInASportClass();
+    }
+
+    public static void groundhogsParty() {
         //    Groundhogs at a party
         /**
-         * Groundhogs like to throw fun parties, and at their parties, they like to eat Reeses peanut butter cups. But not too many Reeses or they feel sick! A successful groundhog party will have between 10 and 20 Reeses peanut butter cups, inclusive unless it is the weekend, in which case they will need 15 to 25 Reeses peanut butter cups, inclusive.
+         * Groundhogs like to throw fun parties, and at their parties, they like to eat Reeses peanut butter cups.
+         * But not too many Reeses or they feel sick! A successful groundhog party will have between 10 and 20 Reeses peanut
+         * butter cups, inclusive unless it is the weekend, in which case they will need 15 to 25 Reeses peanut butter cups,
+         * inclusive.
          *
          * Write a Java program that reads two values:
          * the first is the number of Reeses peanut butter cups;
@@ -24,7 +36,6 @@ public class RelationalOperatorsExercises {
          * true
          */
 
-
         Scanner scanner = new Scanner(System.in);
         // put your code here
         int num1 = scanner.nextInt();
@@ -39,7 +50,7 @@ public class RelationalOperatorsExercises {
 
     }
 
-    public static void main5(String[] args) {
+    public static void isBetween() {
         // Is between
         /**
          * Write a program that reads three integer numbers and prints true if the first number is between the second
@@ -75,7 +86,7 @@ public class RelationalOperatorsExercises {
 
     }
 
-    public static void main4(String[] args) {
+    public static void checkTheSum() {
         //   Check the sum
         /**
          * Write a program that reads the numbers a, b, c and checks if any pair of them sums to 20.
@@ -108,8 +119,7 @@ public class RelationalOperatorsExercises {
 
     }
 
-    public static void main3(String[] args) {
-
+    public static void checkTheGivenNumberAreDifferent() {
         //    Check the given numbers are different
         /**
          * Write a program that reads three numbers and checks that they all are different, i.e. not equal to one another.
@@ -136,7 +146,7 @@ public class RelationalOperatorsExercises {
 
     }
 
-    public static void main2(String[] args) {
+    public static void exactlyOneParameterIsPositive() {
         //    Exactly one parameter is positive
         /**
          * Write a program that reads three integer numbers and prints true if exactly one number is positive (i.e. > 0).
@@ -191,8 +201,7 @@ public class RelationalOperatorsExercises {
         System.out.println(exactlyOneIsPositive);
     }
 
-
-    public static void main1(String[] args) {
+    public static void boysInASportClass() {
         //   Boys in a sport class
         /**
          * Suppose there are three boys in a sports class.

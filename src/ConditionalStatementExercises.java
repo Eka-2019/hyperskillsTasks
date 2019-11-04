@@ -4,6 +4,18 @@ import java.util.Scanner;
 public class ConditionalStatementExercises {
 
     public static void main(String[] args) {
+        chocolate();
+        queens();
+        simpleEquation();
+        symmetricalNumber();
+        boxes();
+        leapYear();
+        triangle();
+        interval();
+
+    }
+
+    public static void chocolate() {
         //   Chocolate
         /**
          * A chocolate bar has the shape of a rectangle, divided into NxM segments.
@@ -47,7 +59,7 @@ public class ConditionalStatementExercises {
 
     }
 
-    public static void main7(String[] args) {
+    public static void queens() {
         //   Queens
         /**
          * You are given coordinates of two queens on a chess board. Find out whether or not they hit each other.
@@ -86,8 +98,7 @@ public class ConditionalStatementExercises {
 
     }
 
-
-    public static void main6(String[] args) {
+    public static void simpleEquation() {
         //    Solve a simple equation
         /**
          * Given a simple equation, you should output the correct value for variable "x".
@@ -166,7 +177,7 @@ public class ConditionalStatementExercises {
 
     }
 
-    public static void main5(String[] args) {
+    public static void symmetricalNumber() {
         //   Symmetrical number
         /**
          * Given a four-digit number. Determine whether its decimal notation is symmetric. If the number is symmetric, output 1; otherwise output any other integer. The number may have less than four digits; in this case you should assume that its decimal notation is complemented by insignificant zeros on the left.
@@ -198,7 +209,7 @@ public class ConditionalStatementExercises {
 
     }
 
-    public static void main4(String[] args) {
+    public static void boxes() {
         //   Boxes
         /**
          * There are two boxes on the table. The first box has a size of X1 x Y1 x Z1, and the second box has a size of X2 x Y2 x Z2. You need to determine which box can be put inside another box. You can rotate both boxes as you want.
@@ -261,7 +272,7 @@ public class ConditionalStatementExercises {
         }
     }
 
-    public static void main3(String[] args) {
+    public static void leapYear() {
         //   Leap year
         /**
          * Find whether the given year is a leap year.
@@ -296,8 +307,7 @@ public class ConditionalStatementExercises {
         }
     }
 
-
-    public static void main2(String[] args) {
+    public static void triangle() {
         //  Triangle
         /**
          * Given three natural numbers A, B, C. Determine if a triangle with these sides can exist.
@@ -344,7 +354,7 @@ public class ConditionalStatementExercises {
         }
     }
 
-    public static void main1(String[] args) {
+    public static void interval() {
         //   Interval
         /**
          * Given an integer as input. Output True if its value is within the interval (−15,12]∪(14,17)∪[19,+∞), and False otherwise (case sensitive).
@@ -374,7 +384,6 @@ public class ConditionalStatementExercises {
         }
 
     }
-
 
 }
 

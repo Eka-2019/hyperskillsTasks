@@ -1,10 +1,22 @@
 import java.util.Scanner;
 
-
 public class IntegerExercises {
 
-
     public static void main(String[] args) {
+        snail();
+        reversing();
+        nextEvenNumber();
+        differentOfTimes();
+        goodRestOnVacation();
+        theNumberOfTens();
+        squrrelsAndNuts();
+        firstDigit();
+        desk();
+        theSumOfDigits();
+
+    }
+
+    public static void snail() {
         // Snail
         /**
          * Snail creeps up the vertical pole of height H feets. Per day it goes A feets up, and per night it goes B feets down.
@@ -43,8 +55,7 @@ public class IntegerExercises {
         System.out.println(count);
     }
 
-
-    public static void main10(String[] args) {
+    public static void reversing() {
         //   Reversing
         /**
          *Write a program that reads a three digit number, calculates the new number by reversing its digits, and outputs a new number.
@@ -65,8 +76,7 @@ public class IntegerExercises {
 
     }
 
-
-    public static void main9_1(String[] args) {
+    public static void nextEvenNumber() {
         //  Next even number
 
         /**
@@ -97,8 +107,7 @@ public class IntegerExercises {
 
     }
 
-
-    public static void main9_2(String[] args) {
+    public static void nextEvenNumberSampleSolution() {
         // correct decision
         final Scanner scanner = new Scanner(System.in);
         final int number = scanner.nextInt();
@@ -106,8 +115,7 @@ public class IntegerExercises {
         System.out.println(nextEven);
     }
 
-
-    public static void main8(String[] args) {
+    public static void differentOfTimes() {
         //  Difference of times
         /**
          * Given the values of the two moments in time in the same day: hours, minutes and seconds for each of the time moments. It is known that the second moment in time happened not earlier than the first one. Find how many seconds passed between these two moments of time.
@@ -154,8 +162,7 @@ public class IntegerExercises {
         System.out.println(secondMom - firstMom);
     }
 
-
-    public static void main7(String[] args) {
+    public static void goodRestOnVacation() {
         //   Good rest on vacation
         /**
          * Write a program that will help people who are going on vacation. The program should calculate the total required sum (e.g. $) of money to have a good rest for a given duration.
@@ -184,7 +191,7 @@ public class IntegerExercises {
         System.out.println(n1 * n2 + n3 * 2 + (n1 - 1) * n4);
     }
 
-    public static void main6(String[] args) {
+    public static void theNumberOfTens() {
         //  The number of tens
 
         /**
@@ -204,8 +211,7 @@ public class IntegerExercises {
 
     }
 
-
-    public static void main5(String[] args) {
+    public static void squrrelsAndNuts() {
         //  Squirrels and nuts
 
         /**
@@ -228,8 +234,7 @@ public class IntegerExercises {
         System.out.println(numOfNut % numOfSqu);
     }
 
-
-    public static void main4(String[] args) {
+    public static void firstDigit() {
         //   First digit
 
         /**
@@ -247,8 +252,7 @@ public class IntegerExercises {
         System.out.println(n2);
     }
 
-    public static void main3_2(String[] args) {
-
+    public static void desk() {
         //   Desks
 
         /**
@@ -293,9 +297,7 @@ public class IntegerExercises {
         System.out.println(num1 + num2 + num3);
     }
 
-
-    public static void main3_1(String[] args) {
-
+    public static void deskSampleSolution() {
         // Desk (correct decision)
 
         final Scanner sc = new Scanner(System.in);
@@ -309,8 +311,7 @@ public class IntegerExercises {
 
     }
 
-    public static void main2(String[] args) {
-
+    public static void theSumOfDigits() {
         //  The sum of digits
 
         /**
@@ -329,29 +330,7 @@ public class IntegerExercises {
         int n2 = (n % 100) / 10;
         int n3 = n % 10;
         System.out.println(n1 + n2 + n3);
-
-
     }
 
-    public static void main1(String[] args) {
-        //The sum of digits
-
-        /**
-         * Given a three-digit integer (i.e. an integer from 100 to 999). Find the sum of its digits.
-         *
-         * Sample Input 1:
-         * 476
-         * Sample Output 1:
-         * 17
-         */
-
-        Scanner scanner = new Scanner(System.in);
-        String[] data = scanner.nextLine().split("", 3);
-        System.out.println(data[0]);
-
-//        int n = scanner.nextInt();
-//        int result = ((n + 1) * n + 2) * n + 3;
-//        System.out.println(result);
-    }
 
 }
